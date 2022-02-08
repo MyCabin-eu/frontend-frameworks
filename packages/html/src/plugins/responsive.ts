@@ -39,7 +39,8 @@ function responsivePlugin(steps?: number | number[], element?:HTMLImageElement, 
     });
 
     const containerSize = element.parentElement.clientWidth;
-    responsiveImage.resize(scale().width(containerSize).setActionTag('responsive'));
+    // responsiveImage.resize(scale().width(containerSize).setActionTag('responsive'));
+    responsiveImage.resize(scale().width(100).setActionTag('responsive'));
 
     let resizeRef: any;
     htmlPluginState.pluginEventSubscription.push(()=>{
