@@ -21,5 +21,5 @@
     "lerna": "^4.0.0",
     "replace-in-file": "^6.2.0"
   },
-  "main": "./packages/react/dist/index.js"
+  "main": "packages/react/dist/index.js"
 }
